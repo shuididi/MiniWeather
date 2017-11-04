@@ -1,8 +1,6 @@
 package com.example.administrator.bean;
 
-/**
- * Created by zhangqixun on 16/7/5.
- */
+
 public class TodayWeather {
     private String city;
     private String updatetime;

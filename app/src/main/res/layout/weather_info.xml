@@ -227,6 +227,19 @@
             </RelativeLayout>
         </RelativeLayout>
             <!-- 六日天气信息 -->
+        <RelativeLayout
+            android:id="@+id/future_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10.0dip">
+            <android.support.v4.view.ViewPager
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/viewpager2">
+            </android.support.v4.view.ViewPager>
+        </RelativeLayout>
             <!-- 广告等信息 -->
     </LinearLayout>
 </RelativeLayout>

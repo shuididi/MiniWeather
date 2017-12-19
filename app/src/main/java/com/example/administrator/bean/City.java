@@ -13,6 +13,15 @@ public class City {
     private String allPY;
     private String allFristPY;
 
+
+    public City()
+    {
+
+    }
+
+
+
+
     public City(String province, String city, String number, String firstPY, String allPY, String allFristPY) {
         this.province = province;
         this.city = city;
@@ -44,5 +53,29 @@ public class City {
 
     public String getAllFristPY() {
         return allFristPY;
+    }
+
+    public void setProvince(String province) {
+        this.province = province;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setAllFristPY(String allFristPY) {
+        this.allFristPY = allFristPY;
+    }
+
+    public void setAllPY(String allPY) {
+        this.allPY = allPY;
+    }
+
+    public void setFirstPY(String firstPY) {
+        this.firstPY = firstPY;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 }
